@@ -9,6 +9,7 @@ Customer data – demographic and behavioral attributes
 Product data – product categories, pricing, and identifiers
 
 These entities were joined and analyzed to create a complete business view.
+
 Total and cumulative revenue
 
 Average order value
