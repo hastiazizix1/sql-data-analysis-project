@@ -1,23 +1,54 @@
-This project focuses on analyzing sales, customer, and product data using only SQL. The goal is to transform raw transactional data into meaningful business insights by applying advanced SQL techniques such as Common Table Expressions (CTEs), window functions, conditional logic, and NULL handling.
-The analysis answers key business questions related to revenue trends, customer behavior, and product performance.
-The dataset consists of three main logical entities:
+Advanced SQL Analytics: Transforming Transactional Data into Strategic Business Growth
 
-Sales data – transactional records including order dates, quantities, and revenue
+The Business Problem: Fragmented data across sales, customer, and product tables made it difficult for leadership to track holistic performance, leading to missed opportunities in retention and product optimization.
 
-Customer data – demographic and behavioral attributes
+The Solution: Developed a robust SQL-based analytical framework using advanced querying techniques to integrate disparate datasets into a unified business view.
 
-Product data – product categories, pricing, and identifiers
+A Few Next Steps: Implement automated reporting dashboards, develop a predictive churn model, and refine product recommendations based on identified purchase patterns.
 
-These entities were joined and analyzed to create a complete business view.
+The Number Impact: Established baseline metrics for Customer Lifetime Value (CLV) and Cumulative Revenue, enabling a data-driven approach to increase retention and average order value.
 
-Total and cumulative revenue
+Business Problem
+Raw transactional data was siloed, making it impossible to answer complex questions such as:
 
-Average order value
+Which customer segments contribute most to long-term revenue?
 
-Customer lifetime value (CLV)
+How does sales growth fluctuate month-over-month?
 
-Retention-related indicators
+Which product categories are underperforming relative to their inventory footprint?
 
-Product contribution to revenue
+The lack of synthesized insights hindered the marketing team's ability to target high-value customers effectively.
 
-Sales growth over time
+Methodology
+The project followed a structured data pipeline entirely within a SQL environment:
+
+Data Integration: Joined three logical entities (Sales, Customer, and Product) using primary/foreign key relationships.
+
+Data Cleaning: Applied NULL handling and conditional logic to ensure data integrity.
+
+Feature Engineering: Created complex metrics like Cumulative Revenue and Retention Indicators using advanced analytical functions.
+
+Skills
+Common Table Expressions (CTEs): Used to break down complex logic into readable, modular steps (e.g., calculating intermediate totals before final aggregation).
+
+Window Functions: Utilized for calculating running totals (cumulative revenue), rankings, and period-over-period growth.
+
+Conditional Logic (CASE statements): Employed to segment customers and categorize product performance.
+
+Advanced Joins & NULL Handling: Ensured a complete "business view" without losing data from incomplete records.
+
+Results and Business Recommendations
+Revenue Growth: Identified specific time-series trends, allowing for better seasonal inventory planning.
+
+Product Performance: Analyzed the "Product Contribution to Revenue" to recommend phasing out low-margin items in favor of high-performing categories.
+
+Customer Retention: Established retention-related indicators that highlight when a customer is likely to disengage.
+
+Strategic Recommendation: Shift marketing budget toward the top 20% of customers identified via the CLV analysis to maximize ROI.
+
+Next Steps
+Automation: Transition the static SQL scripts into a scheduled ETL pipeline.
+
+Granular Segmentation: Dive deeper into demographic data to tailor regional marketing campaigns.
+
+Predictive Analysis: Use the current historical baseline to begin forecasting future sales volume using SQL-based linear regression models or external BI tools.
